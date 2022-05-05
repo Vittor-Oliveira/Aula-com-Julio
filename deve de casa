@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width, inicial-scale=1.0"> 
+    <title>Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <div>
+     <center> <h1 class="is-size-1">Store</h1></center>
+    </div>
+    
+    <br>
+
+    <div class="is-flex">
+    <label class="is-size-4">Peso em Estoque:&nbsp;&nbsp;</label> 
+    <div>
+    <input 
+      disabled
+      class="input is-primary mr-3"
+      type="number"
+      placeholder="KG">
+    </div>
+    <label class="is-size-4">Valor em Estoque:&nbsp;&nbsp;</label>   
+    <div>
+    <input 
+      disabled
+      class="input is-primary mr-3"
+      type="number"
+      placeholder="R$">
+    </div>
+    </div>
+    
+    <br>
+    
+    <br>
+    
+    <div class="is-flex">
+      <label class="is-size-4">Peso da Entrada:&nbsp;&nbsp;</label>
+    <div class="is-size-4">
+      <input type="number"
+      placeholder= "KG"
+      class="input is-primary mr-3">
+    </div>      
+    <label class="is-size-4">Valor da Entrada:&nbsp;&nbsp;</label>
+    <div class="is-size-4">
+      <input 
+      type="number"
+      placeholder= "R$"
+      class="input is-primary mr-3">
+    </div>
+    </div>
+
+    <br>
+
+    <div>
+      <button>Entrar</button>
+    </div>
+
+    <br>
+
+    <div class="is-flex">
+      <label class="is-size-4">Peso da Saida:&nbsp;&nbsp;</label>
+    <div class="is-size-4">
+      <input type="number"
+      placeholder= "KG"
+      class="input is-primary mr-3">
+    </div>
+    <label class="is-size-4">Valor de Saida:&nbsp;&nbsp;</label>
+    <div class="is-size-4">
+      <input type="number"
+      placeholder= "R$"
+      class="input is-primary mr-3">
+    </div>
+   </div>
+   
+   <br>
+
+   <div>
+      <button>Retirar</button>
+    </div>
+   
+</body>
+
+</html>
